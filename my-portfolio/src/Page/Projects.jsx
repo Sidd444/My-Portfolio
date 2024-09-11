@@ -17,7 +17,9 @@ const Projects = () => {
     if (selectedCategory === "Backend") {
       return projectData.filter((project) => project.category === selectedCategory);
     }
-    else {
+    else if(selectedCategory=== "Frontend") {
+      return projectData.filter((project) => project.category === selectedCategory);
+    }else{
       return projectData.filter((project) => project.category === selectedCategory);
     }
   };
@@ -66,6 +68,14 @@ const Projects = () => {
               onClick={() => setSelectedCategory("Frontend")}
             >
               Frontend
+            </button>
+            <button
+              className={`${
+                selectedCategory === "Graphic" ? "bg-gray-800" : "bg-transparent"
+              } px-4 py-2 rounded-lg transition-all duration-200`}
+              onClick={() => setSelectedCategory("Full-Stack")}
+            >
+              Full Stack/MERN
             </button>
           </div>
          <div className='w-[100%] grid grid-cols-1 lg:grid-cols-3 gap-4'>

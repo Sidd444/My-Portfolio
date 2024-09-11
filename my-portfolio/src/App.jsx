@@ -14,7 +14,7 @@ import { AnimatePresence,} from "framer-motion"
 
 function App() {
   return (<>
-    <div className=" relative font-roboto select-text flex w-screen h-screen min-h-screen flex-col cursor-auto">
+    <div className=" relative font-roboto select-text flex  h-screen min-h-screen flex-col cursor-auto">
       <AnimatePresence mode='wait'>
       <Cursor/>
 

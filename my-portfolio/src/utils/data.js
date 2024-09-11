@@ -7,7 +7,11 @@ import EC from "../assets/Projects/EC.png"
 import SRMS from "../assets/Projects/SRMS.png"
 import OSS from "../assets/Projects/OSS.png"
 import TS from "../assets/Projects/TS.png"
-
+import QW from "../assets/Projects/QW.png"
+import B from "../assets/Projects/B.png"
+import CL from "../assets/Projects/CL.png"
+import MA from "../assets/Projects/MA.png"
+import PO from "../assets/Projects/PO.png"
 
 const projectData = [
     {
@@ -36,11 +40,11 @@ const projectData = [
         description:"A responsive and interactive React application where users can add, update and delete tasks.",
         image:TS,
         alt: "tm",
-        tools:[ "Html","Css","Javascript","React"],
+        tools:[ "Html","Css","Javascript","React","Node JS","Express"],
         about: "The tasks can be displayed based on their status in different columns.Updating a task status will move it to the required column.The application is responsive for mobile view." ,
-        category: "Frontend",
-        demoLink:"https://661563cfb6f88c117192f3e7--heartfelt-fudge-2084be.netlify.app/",
-        githubLink:"https://github.com/Sidd444/task-manager-app"
+        category: "Full-Stack",
+        demoLink:"https://mellow-daifuku-52bc64.netlify.app/",
+        githubLink:"https://github.com/Sidd444/MERN-Project--task-28-"
     },
     {
         heading:"Course-website",
@@ -95,18 +99,72 @@ const projectData = [
         category: "Backend",
         demoLink:"https://github.com/Sidd444/Vaccination-Bookin-System"
     },
-         {
+    {
         heading:"E-Commerce",
         description:"This is a SpringBoot Application to replicate functionalities of an E-Commerce Website",
         image: EC,
         alt: "e-commerce",
-        tools:["Java", "SpringBoot","MySQL"],
+        tools:["Java", "SpringBoot","MySQL","React","Tailwind"],
         about: ['This Spring Boot project is an e-commerce platform designed to facilitate transactions between sellers and customers. It provides APIs for sellers to add their details and items, customers to add their details, manage their carts, and complete transactions.' ],
-        category: "Backend",
+        category: "Full-Stack",
         demoLink:"https://github.com/Sidd444/E-Commerce"
     },
-    
+    {
+        heading:"Quiz-Whizz",
+        description:"Quizz-Whizz is a quiz application built with modern web technologies that allows users to create their own custom quizzes and play quizzes created by others",
+        image: QW,
+        alt: "quiz-whizz",
+        tools:["React", "Tailwind","MongoDB Atlas","Node JS","Express"],
+        about: ['Create Custom Quizzes: Users can create their own quizzes with custom questions and options.Play Quizzes: Users can play quizzes created by others and test their knowledge.' ],
+        category: "Full-Stack",
+        demoLink:"https://quiz-whizz.vercel.app/login",
+        githubLink:"https://github.com/Sidd444/Quiz-Whizz"
+    },
+    {
+        heading:"Blogger",
+        description:"This is a simple blog website where users can create, edit, and delete their own posts.",
+        image: B,
+        alt: "blog",
+        tools:["HTML", "CSS", "JavaScript","React","Tailwind","Node JS","MongoDB Atlas","Express JS"],
+        about: "The application is built using React, Tailwind CSS, and Node.js, and it is connected to a MongoDB database for storing blog posts and user information." ,
+        category: "Full-Stack",
+        demoLink:"https://blog-server-red-iota.vercel.app/",
+        githubLink:"https://github.com/Sidd444/blog"
+    },
+    {
+        heading:"Chess",
+        description:"This is a chess game made without external libraries/frameworks but pure chess logic using Typescript.",
+        image: CL,
+        alt: "chess",
+        tools:["HTML", "CSS", "TypeScript","React","Tailwind"],
+        about: "This is a chess game made without external libraries/frameworks but pure chess logic using Typescript." ,
+        category: "Frontend",
+        demoLink:"https://chess-logic.vercel.app/",
+        githubLink:"https://github.com/Sidd444/chess-logic"
+    },
 
+    {
+        heading:"Music Academy",
+        description:"This is a next js website with an amazing modern UI",
+        image: MA,
+        alt: "music academy",
+        tools:["TypeScript","Next JS","Tailwind","Acernity"],
+        about: "The application is built using next js,tailwind and acernity UI" ,
+        category: "Full-Stack",
+        demoLink:"https://music-academy-next-js-three.vercel.app/",
+        githubLink:"https://github.com/Sidd444/music-academy-next-JS"
+    },
+    {
+        heading:"Post Office Near You",
+        description:"We will be able to see a list of post offices our pincode.It will Map and show all the post offices available in that area.",
+        image: PO,
+        alt: "po",
+        tools:["HTML", "CSS", "JavaScript","Location API"],
+        about: "We will be able to see a list of post offices our pincode.It will Map and show all the post offices available in that area." ,
+        category: "Frontend",
+        demoLink:"https://sidd444.github.io/Post-Office-near-you/",
+        githubLink:"https://github.com/Sidd444/Post-Office-near-you"
+    },
 ]
 
 export default projectData;

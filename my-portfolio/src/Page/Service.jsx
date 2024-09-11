@@ -12,7 +12,7 @@ const cardDetails = [
   {
     icon: code,
     heading: "Web Development",
-    description: "I specialize in building responsive and user-friendly websites using modern technologies like React, HTML5, CSS3, and more.",
+    description: "I specialize in building responsive and user-friendly websites using modern technologies like Next,React,Tailwind and other UI Libararies",
   },
   {
     icon: penTool,
@@ -22,7 +22,7 @@ const cardDetails = [
   {
     icon: person,
     heading: "Backend",
-    description: "I create appealing backend using Java with SpringBoot Framework and SQL as Database.",
+    description: "I create appealing backend using SpringBoot Framework,Next JS or Node JS and SQL/MongoDB as Database ",
   },
   
 ]
