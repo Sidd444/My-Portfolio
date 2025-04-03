@@ -8,6 +8,7 @@ import Projects from './Page/Projects';
 import Contact from './Page/Contact';
 import Footer from './Page/Footer';
 import Cursor from "./component/Cursor";
+import SocialLinks from "./component/SocialLinks";
 import { AnimatePresence,} from "framer-motion"
 
 
@@ -24,6 +25,8 @@ function App() {
 
       <About />
 
+      <SocialLinks />
+
       <Skill />
 
       <Service />
@@ -33,6 +36,7 @@ function App() {
       <Contact />
 
       <Footer />
+
       </AnimatePresence>
     </div>
     </>

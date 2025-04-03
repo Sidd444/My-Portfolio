@@ -18,8 +18,24 @@ import { icon } from "./anime"
 
 const skills = [
   {
-    icon: "FaCode",
+    icon: "FaJava", 
     heading: "Java",
+  },
+  {
+    icon: "AiFillHtml5",
+    heading: "HTML5",
+  },
+  {
+    icon: "SiCss3",
+    heading: "CSS3",
+  },
+  {
+    icon: "IoLogoJavascript",
+    heading: "Javascript",
+  },
+  {
+    icon: "SiPython",
+    heading: "Python",
   },
   {
     icon: "SiSpring",
@@ -42,28 +58,36 @@ const skills = [
     heading: "Bootstrap",
   },
   {
-    icon: "IoLogoJavascript",
-    heading: "Javascript",
-  },
-  {
-    icon: "SiCss3",
-    heading: "CSS3",
-  },
-  {
-    icon: "AiFillHtml5",
-    heading: "HTML5",
-  },
-  {
     icon: "BsGit",
     heading: "Git",
   },
+  {
+    icon: "FaGithub",
+    heading: "GitHub",
+  },
+  {
+    icon: "SiPostman",
+    heading: "Postman",
+  },  
   {
     icon: "BiLogoVisualStudio",
     heading: "Visual Studio",
   },
   {
+    icon: "SiMongodb",
+    heading: "MongoDB",
+  },
+  {
     icon: "SiMysql",
     heading: "SQL",
+  },
+  {
+    icon: "SiNextdotjs", 
+    heading: "Next.js",
+  },
+  {
+    icon: "SiFigma", 
+    heading: "Figma",
   },
   
 ]
