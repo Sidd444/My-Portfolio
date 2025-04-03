@@ -29,7 +29,7 @@ const cardDetails = [
 
 const Service = () => {
   return (
-    <section className='w-full bg-inherit  z-0  snap-start mt-2' id='service'>
+    <section className='w-full bg-inherit  z-0  snap-start mt-36' id='service'>
         <div className='relative mx-auto flex flex-col w-11/12 md:h-screen max-w-maxContent gap-8  mt-10  text-white'>
          <SectionName name={"Service"}/>
          <div className="flex flex-col md:flex-row gap-x-8 gap-y-4 mx-auto px-4 py-12 justify-center items-center ">
