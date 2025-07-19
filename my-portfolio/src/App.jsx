@@ -10,6 +10,7 @@ import Footer from './Page/Footer';
 import Cursor from "./component/Cursor";
 import SocialLinks from "./component/SocialLinks";
 import { AnimatePresence,} from "framer-motion"
+import Experience from "./component/Experience";
 
 
 
@@ -28,6 +29,8 @@ function App() {
       <SocialLinks />
 
       <Skill />
+
+      <Experience />
 
       <Service />
 
