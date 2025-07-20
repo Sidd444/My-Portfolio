@@ -9,7 +9,7 @@ const ExperienceCard = ({ company, role, description, technologies, logo }) => {
             initial={{ scale: 0.9 }}
             whileInView={{ scale: 1 }}
             transition={{ duration: 0.5, ease: "easeInOut" }}
-            className="relative group mx-auto w-full md:w-[80%] lg:w-[100%] border-[2px] border-gray-800 rounded-md cursor-pointer h-80 overflow-hidden"
+            className="relative group mx-auto w-full md:w-[80%] lg:w-[100%] border-[2px] border-gray-800 rounded-md cursor-pointer min-h-[20rem] md:min-h-[24rem] lg:min-h-[28rem] overflow-hidden"
         >
             {/* Content Layer */}
             <div className="flex flex-col justify-center items-center h-full z-10 relative">
@@ -85,7 +85,7 @@ const Experience = () => {
 
     return (
         <section
-            className="w-full md:h-screen z-0  snap-start mt-28 pt-14 mb-14 text-white"
+            className="w-full bg-inherit z-10 snap-start mt-80 pt-14 mb-14 text-white"
             id="experience"
         >
             <div className="container mx-auto px-4 py-8">

@@ -21,7 +21,7 @@ const HeroContent = () => {
     <h1
       className="heading text-3xl font-bold text-primary text-transparent bg-clip-text bg-gradient-to-r from-[#d7d7d7] to-[#616161] sm:text-3xl md:text-5xl pb-2"
     >
-       Java Fullstack Developer , MERN Stack Developer , Coder
+       Software Developer 
     </h1>
     <h2 className="w-5/6 mx-auto mt-2 text-gray-400 sm:text-xl font-medium">
       I design and code beautifully simple things, and I love what I do.

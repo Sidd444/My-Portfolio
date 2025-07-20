@@ -64,7 +64,7 @@ const Footer = () => {
         initial={{y:0, opacity:0}}
         whileInView={{y:[20,0], opacity:1}}
         transition={{duration:1, ease: [0.45, 0, 0.55, 1]}}
-        className='paragraph mt-10 text-center'>© Copyright {year}, All Rights Reserved by Siddhath</m.p>
+        className='paragraph mt-10 text-center'>© Copyright {year}, All Rights Reserved by @Siddhartha</m.p>
       </div>
     </footer>
   )

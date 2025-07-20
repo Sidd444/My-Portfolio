@@ -6,7 +6,9 @@ import { motion as m } from "framer-motion"
 
 const Contact = () => {
 
-    const [state] = useForm("xleyokpw");
+    const [state, handleSubmit] = useForm("xleyokpw");
+
+
     // const [state, handleSubmit] = useForm("xleyokpw");
     // if (state.succeeded) {
     //     return
@@ -43,16 +45,7 @@ const Contact = () => {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                                     </svg>
                                     <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                        Golaghat,Assam,785621 India
-                                    </div>
-                                </div>
-
-                                <div className="flex items-center mt-4 text-gray-400">
-                                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" className="w-8 h-8 text-gray-400">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                                    </svg>
-                                    <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                        +91 9401204496
+                                        Assam, India
                                     </div>
                                 </div>
 
@@ -68,7 +61,7 @@ const Contact = () => {
 
                             <m.form
                                 
-
+                                onSubmit={handleSubmit}
                                 initial={{ x: 0, opacity: 0 }}
                                 whileInView={{ x: [250, 0], opacity: 1 }}
                                 action="https://formsubmit.co/5d77c5b3240155ecdd11216c1592189a"
@@ -116,6 +109,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+            {(state.succeeded && <h3 className="text-green-500 mt-4">Thank you for your message! I will get back to you soon.</h3>)}
         </section>
 
     )

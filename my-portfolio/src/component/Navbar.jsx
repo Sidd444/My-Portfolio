@@ -13,6 +13,8 @@ const navigation = [
     { name: 'Projects', href: '#projects' },
     { name: 'Service', href: '#service' },
     { name: 'Contact', href: '#contact' },
+    { name: 'Experience', href: '#experience' },
+    { name: 'Skill', href: '#skill' },
 ]
 
 const Navbar = () => {
