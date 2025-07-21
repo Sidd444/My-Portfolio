@@ -37,6 +37,7 @@ const skills = [
 ]
 
 const Skill = () => {
+  
   return (
     <section className='w-full md:h-screen z-0 snap-start mt-14 pt-14' id='skill'>
       <m.div
