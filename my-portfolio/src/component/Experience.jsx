@@ -59,7 +59,7 @@ const Experience = () => {
     const experiences = [
         {
             company: "GOITDEV / Turn2Web",
-            role: "Full Stack Developer",
+            role: "Web Developer",
             description:
                 "Working as a Full Stack Developer, contributing to client-facing web applications and internal tools. Focused on delivering scalable solutions using SpringBoot and React.",
             technologies: ["SpringBoot", "MERN"],
@@ -75,7 +75,7 @@ const Experience = () => {
         },
         {
             company: "HealTether",
-            role: "Software Developer",
+            role: "Web Developer",
             description:
                 "Collaborated on healthcare-related web platforms, integrating backend services and enhancing user experience through responsive design and efficient data handling.",
             technologies: ["MERN"],

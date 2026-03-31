@@ -12,6 +12,7 @@ import SocialLinks from "./component/SocialLinks";
 import { AnimatePresence,} from "framer-motion"
 import Experience from "./component/Experience";
 import { fireflies } from "./component/anime";
+import { bubblesSquares } from "./component/anime";
 import { useEffect } from "react";
 
 
@@ -22,7 +23,7 @@ function App() {
     fireflies('.fireflies');
   }, []);
   return (<> 
-    <div className="fireflies relative font-roboto select-text flex  h-screen min-h-screen flex-col cursor-auto">
+    <div className="fireflies bubbles-squares relative font-roboto select-text flex  h-screen min-h-screen flex-col cursor-auto">
       <AnimatePresence mode='wait'>
       <Cursor/>
 
